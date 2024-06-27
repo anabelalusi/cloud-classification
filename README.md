@@ -30,16 +30,16 @@ Usage
 Data Preparation
 Prepare your dataset by organizing your GHI data and corresponding cloud type labels. Ensure your data is in the format expected by the scripts.
 
-Results
+## Results
 The results of our experiments, including accuracy, precision, recall, and other relevant metrics, can be found in the results directory. Detailed analysis and visualizations are also provided in the paper.
 
-Contributing
+## Contributing
 We welcome contributions to this project. Please follow the standard GitHub workflow: fork the repository, create a new branch, make your changes, and submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Citation
+## Citation
 If you use this code or our models in your research, please cite our paper:
 
 @article{yourpaper2024,
