@@ -1,22 +1,19 @@
 # Cloud Classification through Machine Learning and Global Horizontal Irradiance Data Analysis
 
-This repository contains the code and models developed for the paper "Cloud Classification through Machine Learning and Global Horizontal Irradiance Data Analysis".
+This repository contains the pre-trained model and code to prepare GHI data and perform cloud classification as described in our paper "Cloud Classification through Machine Learning and Global Horizontal Irradiance Data Analysis".
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Data Preparation](#data-preparation)
-  - [Training the Model](#training-the-model)
-  - [Evaluating the Model](#evaluating-the-model)
-  - [Inference](#inference)
-- [Results](#results)
+  - [Running the Model](#running-the-model)
 - [Contributing](#contributing)
 - [License](#license)
 - [Citation](#citation)
 
 ## Introduction
-In this project, we propose a machine learning approach to classify cloud types using Global Horizontal Irradiance (GHI) data. Our methodology leverages advanced machine learning algorithms to analyze GHI data and accurately classify different types of clouds.
+This project provides a pre-trained machine learning model to classify cloud types using Global Horizontal Irradiance (GHI) data. Users can prepare their GHI data, run the pre-trained model, and get predictions.
 
 ## Installation
 To get started with this project, clone the repository and install the necessary dependencies.
@@ -26,12 +23,15 @@ git clone https://github.com/anabelalusi/cloud-classification.git
 cd cloud-classification
 pip install -r requirements.txt
 ```
+
+
 ## Usage
-Data Preparation
+# Data Preparation
 Prepare your dataset by organizing your GHI data and corresponding cloud type labels. Ensure your data is in the format expected by the scripts.
 
-## Results
-The results of our experiments, including accuracy, precision, recall, and other relevant metrics, can be found in the results directory. Detailed analysis and visualizations are also provided in the paper.
+## Running the Model
+# Run the cloud classification using the pre-trained model:
+python run_model.py --model_path path/to/model.pkl --input_data path/to/processed/data --output_predictions path/to/save/predictions
 
 ## Contributing
 We welcome contributions to this project. Please follow the standard GitHub workflow: fork the repository, create a new branch, make your changes, and submit a pull request.
