@@ -31,7 +31,7 @@ Prepare your dataset by organizing your GHI data and corresponding cloud type la
 
 ## Running the Model
 ### Run the cloud classification using the pre-trained model:
-python run_model.py --model_path path/to/model.pkl --input_data path/to/processed/data --output_predictions path/to/save/predictions
+python run_model.py --model_path https://github.com/anabelalusi/cloud-classification/blob/main/cloud-classification-XGBoost.pkl --input_data path/to/processed/data --output_predictions path/to/save/predictions
 
 ## Contributing
 We welcome contributions to this project. Please follow the standard GitHub workflow: fork the repository, create a new branch, make your changes, and submit a pull request.
