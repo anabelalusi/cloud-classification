@@ -26,11 +26,11 @@ pip install -r requirements.txt
 
 
 ## Usage
-# Data Preparation
+### Data Preparation
 Prepare your dataset by organizing your GHI data and corresponding cloud type labels. Ensure your data is in the format expected by the scripts.
 
 ## Running the Model
-# Run the cloud classification using the pre-trained model:
+### Run the cloud classification using the pre-trained model:
 python run_model.py --model_path path/to/model.pkl --input_data path/to/processed/data --output_predictions path/to/save/predictions
 
 ## Contributing
