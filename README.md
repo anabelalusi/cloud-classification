@@ -45,7 +45,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 If you use this code or our models in your research, please cite our paper:
 
 ```bash
-@article{yourpaper2024,
+@article{Lusi2024cloudclassification,
   title={Cloud Classification through Machine Learning and Global Horizontal Irradiance Data Analysis},
   author={Anabela Rocío Lusi, Pablo Facundo Orte, Elian Wolfram, José Ignacio Orlando},
   journal={Journal Name},
