@@ -25,8 +25,8 @@ To get started with this project, clone the repository and install the necessary
 git clone https://github.com/anabelalusi/cloud-classification.git
 cd cloud-classification
 pip install -r requirements.txt
-
-Usage
+```
+## Usage
 Data Preparation
 Prepare your dataset by organizing your GHI data and corresponding cloud type labels. Ensure your data is in the format expected by the scripts.
 
