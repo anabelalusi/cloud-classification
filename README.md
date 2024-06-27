@@ -44,6 +44,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Citation
 If you use this code or our models in your research, please cite our paper:
 
+```bash
 @article{yourpaper2024,
   title={Cloud Classification through Machine Learning and Global Horizontal Irradiance Data Analysis},
   author={Anabela Rocío Lusi, Pablo Facundo Orte, Elian Wolfram, José Ignacio Orlando},
@@ -54,6 +55,7 @@ If you use this code or our models in your research, please cite our paper:
   pages={Z-ZZ},
   doi={yourdoi}
 }
+```
 
 For more information, please contact us at anabelalusi@gmail.com
 
