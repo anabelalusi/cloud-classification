@@ -27,13 +27,24 @@ pip install -r requirements.txt
 
 ## Usage
 ### Data Preparation
-Prepare your dataset by organizing your GHI data and corresponding cloud type labels. Ensure your data is in the format expected by the scripts.
+1. Organize Your GHI Data: Ensure your data files (ghi_data.csv and ghi_cs_data.csv) are placed in the project directory.
+2. Data Format: The ghi_data.csv should contain a column named GHI and ghi_cs_data.csv should contain a column named GHI_cs.
 
-## Running the Model
-### Run the cloud classification using the pre-trained model:
+### Running the Model
+1. Ensure Correct Input Data: Your input data files should be in the correct format and located in the project directory.
+2. Run the Provided Script: Execute the script in a Python environment to prepare the data, compute features, and make predictions using the pre-trained model.
+
 ```bash
 python run_model.py --model_path https://github.com/anabelalusi/cloud-classification/blob/main/cloud-classification-XGBoost.pkl --input_data path/to/processed/data --output_predictions path/to/save/predictions
 ```
+### Detailed Steps
+1. Insert Site Data: Provide the solar total irradiance (Gs), cosine of the zenith angle (cz), and the orbital correction factor (Fn).
+2. Load GHI Data: Load the GHI and clear sky GHI data from the provided CSV files.
+3. Calculate Clearness Index: Compute the clearness index and the modified clearness index from the loaded data.
+4. Create DataFrame: Organize the data into a DataFrame and clean any rows with NaN values.
+5. Feature Calculation: Define a function to calculate the necessary features from 33-minute windows of data.
+6. Run the Pre-trained Model: Load the pre-trained model, make predictions based on the calculated features, and map numerical predictions to cloud class names.
+7. Display Results: Output the predictions and their corresponding cloud class names.
 
 ## Contributing
 We welcome contributions to this project. Please follow the standard GitHub workflow: fork the repository, create a new branch, make your changes, and submit a pull request.
