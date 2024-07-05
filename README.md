@@ -8,6 +8,7 @@ This repository contains the pre-trained model and code to prepare GHI data and 
 - [Usage](#usage)
   - [Data Preparation](#data-preparation)
   - [Running the Model](#running-the-model)
+  - [Detailed Steps](#detailed-steps)
 - [Contributing](#contributing)
 - [License](#license)
 - [Citation](#citation)
