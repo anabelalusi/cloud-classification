@@ -28,19 +28,19 @@ pip install -r requirements.txt
 
 ## Usage
 ### Data Preparation
-1. Organize Your GHI Data: Ensure your data files (ghi_data.csv and ghi_cs_data.csv) are placed in the project directory.
-2. Data Format: The ghi_data.csv should contain a column named GHI and ghi_cs_data.csv should contain a column named GHI_cs.
+1. Organize your data: Ensure your data file (for example "data.csv") is placed in the project directory
+2. Data format: Your data.csv file should contain the following columns: ghi (ghi data at minute resolution), ghi_cs (a clear sky model), kt_modificado (the value of the modified clearness index), delta_kt_modificado (variation between consectuvie kt* values)
 
 ### Running the Model
-1. Ensure Correct Input Data: Your input data files should be in the correct format and located in the project directory.
-2. Run the Provided Script: Execute the script in a Python environment to prepare the data, compute features, and make predictions using the pre-trained model.
+1. Ensure correct input data: Your input data files should be in the correct format and located in the project directory.
+2. Run the provided script: Execute the script in a Python environment to prepare the data, compute features, and make predictions using the pre-trained model.
 
 ```bash
 python run_model.py --model_path https://github.com/anabelalusi/cloud-classification/blob/main/cloud-classification-XGBoost.pkl --input_data path/to/processed/data --output_predictions path/to/save/predictions
 ```
-### Detailed Steps
+### Detailed steps
 1. Insert Site Data: Provide the solar total irradiance (Gs), cosine of the zenith angle (cz), and the orbital correction factor (Fn).
-2. Load GHI Data: Load the GHI and clear sky GHI data from the provided CSV files.
+2. Load data: Load the GHI and clear sky GHI data from the provided CSV files.
 3. Calculate Clearness Index: Compute the clearness index and the modified clearness index from the loaded data.
 4. Create DataFrame: Organize the data into a DataFrame and clean any rows with NaN values.
 5. Feature Calculation: Define a function to calculate the necessary features from 33-minute windows of data.
