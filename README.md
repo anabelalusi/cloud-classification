@@ -60,12 +60,12 @@ If you use this code or our models in your research, please cite our paper:
 @article{Lusi2024cloudclassification,
   title={Cloud Classification through Machine Learning and Global Horizontal Irradiance Data Analysis},
   author={Anabela Rocío Lusi, Pablo Facundo Orte, Elian Wolfram, José Ignacio Orlando},
-  journal={Journal Name},
+  journal={Quarterly Journal of the Royal Meteorological Society},
   year={2024},
-  volume={X},
-  number={Y},
-  pages={Z-ZZ},
-  doi={yourdoi}
+  volume={150},
+  issue={765},
+  pages={5435-5451},
+  doi={https://doi.org/10.1002/qj.4880}
 }
 ```
 
