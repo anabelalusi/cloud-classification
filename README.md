@@ -47,9 +47,6 @@ python run_model.py --model_path https://github.com/anabelalusi/cloud-classifica
 6. Run the Pre-trained Model: Load the pre-trained model, make predictions based on the calculated features, and map numerical predictions to cloud class names.
 7. Display Results: Output the predictions and their corresponding cloud class names.
 
-## Contributing
-We welcome contributions to this project. Please follow the standard GitHub workflow: fork the repository, create a new branch, make your changes, and submit a pull request.
-
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
